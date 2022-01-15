@@ -1,6 +1,6 @@
-package dev.intelligentcreations.mocake.client.creativeTab
+package dev.alsaceVan.mocake.client.creativeTab
 
-import dev.intelligentcreations.mocake.common.block.init.BlockInit
+import dev.alsaceVan.mocake.common.block.init.BlockInit
 import net.minecraft.world.item.{CreativeModeTab, ItemStack}
 
 object Tabs {

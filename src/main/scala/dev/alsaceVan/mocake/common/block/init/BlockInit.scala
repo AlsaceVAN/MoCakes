@@ -1,7 +1,7 @@
-package dev.intelligentcreations.mocake.common.block.init
+package dev.alsaceVan.mocake.common.block.init
 
-import dev.intelligentcreations.mocake.common.block.base.BaseCakeBlock
-import dev.intelligentcreations.mocake.common.util.RegistryHandler
+import dev.alsaceVan.mocake.common.block.base.BaseCakeBlock
+import dev.alsaceVan.mocake.common.util.RegistryHandler
 import net.minecraft.world.level.block.Block
 import net.minecraftforge.registries.RegistryObject
 

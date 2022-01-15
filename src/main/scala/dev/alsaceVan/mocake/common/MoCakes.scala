@@ -1,6 +1,6 @@
-package dev.intelligentcreations.mocake.common
+package dev.alsaceVan.mocake.common
 
-import dev.intelligentcreations.mocake.common.util.RegistryHandler
+import dev.alsaceVan.mocake.common.util.RegistryHandler
 import net.minecraftforge.common.MinecraftForge
 import net.minecraftforge.fml.common.Mod
 

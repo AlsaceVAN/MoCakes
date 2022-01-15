@@ -1,4 +1,4 @@
-package dev.intelligentcreations.mocake.common.block.base
+package dev.alsaceVan.mocake.common.block.base
 
 import net.minecraft.core.BlockPos
 import net.minecraft.sounds.SoundEvents

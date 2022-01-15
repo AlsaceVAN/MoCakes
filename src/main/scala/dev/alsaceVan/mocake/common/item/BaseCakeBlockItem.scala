@@ -1,6 +1,6 @@
-package dev.intelligentcreations.mocake.common.item
+package dev.alsaceVan.mocake.common.item
 
-import dev.intelligentcreations.mocake.client.creativeTab.Tabs
+import dev.alsaceVan.mocake.client.creativeTab.Tabs
 import net.minecraft.world.food.FoodProperties
 import net.minecraft.world.item.{BlockItem, Item, ItemStack}
 import net.minecraft.world.level.block.Block

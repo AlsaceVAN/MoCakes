@@ -1,8 +1,8 @@
-package dev.intelligentcreations.mocake.common.util
+package dev.alsaceVan.mocake.common.util
 
-import dev.intelligentcreations.mocake.common.MoCakes
-import dev.intelligentcreations.mocake.common.block.init.BlockInit
-import dev.intelligentcreations.mocake.common.item.FoodInit
+import dev.alsaceVan.mocake.common.MoCakes
+import dev.alsaceVan.mocake.common.block.init.BlockInit
+import dev.alsaceVan.mocake.common.item.FoodInit
 import net.minecraft.world.item.Item
 import net.minecraft.world.level.block.Block
 import net.minecraftforge.eventbus.api.IEventBus

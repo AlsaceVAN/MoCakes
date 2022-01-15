@@ -1,7 +1,7 @@
-package dev.intelligentcreations.mocake.common.item
+package dev.alsaceVan.mocake.common.item
 
-import dev.intelligentcreations.mocake.common.block.init.BlockInit
-import dev.intelligentcreations.mocake.common.util.RegistryHandler
+import dev.alsaceVan.mocake.common.block.init.BlockInit
+import dev.alsaceVan.mocake.common.util.RegistryHandler
 
 object FoodInit {
 
