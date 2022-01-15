@@ -1,6 +1,6 @@
 modLoader="kotori_scala"
 loaderVersion="[2.13.3,)"
-license="All Rights Reserved"
+license="AGPL v3"
 [[mods]]
 modId="mocake"
 version="1.0.0"
