@@ -1,0 +1,10 @@
+{
+  "parent": "block/cake_slice1",
+  "textures": {
+    "particle": "mocake:block/cakes/chocolate/cake_side",
+    "bottom": "mocake:block/cakes/chocolate/cake_bottom",
+    "top": "mocake:block/cakes/chocolate/cake_top",
+    "side": "mocake:block/cakes/chocolate/cake_side",
+    "inside": "mocake:block/cakes/chocolate/cake_inner"
+  }
+}

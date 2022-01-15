@@ -1,0 +1,12 @@
+modLoader="kotori_scala"
+loaderVersion="[2.13.3,)"
+license="All Rights Reserved"
+[[mods]]
+modId="mocake"
+version="1.0.0"
+displayName="Mo'Cakes"
+#logoFile="examplemod.png"
+credits=""
+authors="AlsaceVAN"
+description='''
+'''
