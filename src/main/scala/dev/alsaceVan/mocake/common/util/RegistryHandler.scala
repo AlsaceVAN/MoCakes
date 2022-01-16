@@ -14,13 +14,13 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext
 import net.minecraftforge.registries.{DeferredRegister, ForgeRegistries}
 
 object RegistryHandler {
-  val Sounds:DeferredRegister[SoundEvent] = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, MoCakes.MOD_ID)
-  val Effects:DeferredRegister[MobEffect] = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, MoCakes.MOD_ID)
-  val Blocks:DeferredRegister[Block] = DeferredRegister.create(ForgeRegistries.BLOCKS, MoCakes.MOD_ID)
-  val Items:DeferredRegister[Item] = DeferredRegister.create(ForgeRegistries.ITEMS, MoCakes.MOD_ID)
-  val eventBus:IEventBus = FMLJavaModLoadingContext.get().getModEventBus
+  val Sounds: DeferredRegister[SoundEvent] = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, MoCakes.MOD_ID)
+  val Effects: DeferredRegister[MobEffect] = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, MoCakes.MOD_ID)
+  val Blocks: DeferredRegister[Block] = DeferredRegister.create(ForgeRegistries.BLOCKS, MoCakes.MOD_ID)
+  val Items: DeferredRegister[Item] = DeferredRegister.create(ForgeRegistries.ITEMS, MoCakes.MOD_ID)
+  val eventBus: IEventBus = FMLJavaModLoadingContext.get().getModEventBus
 
-  final def register():Unit = {
+  final def register(): Unit = {
     SoundInit.register()
     EffectInit.register()
     BlockInit.register()

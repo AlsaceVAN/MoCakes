@@ -6,11 +6,11 @@ import net.minecraft.resources.ResourceLocation
 import net.minecraft.sounds.SoundEvent
 
 object SoundInit {
-  def register():Unit = {
+  def register(): Unit = {
     initSound("popping_candy")
   }
 
-  private def initSound(soundId:String):Unit = {
-    RegistryHandler.Sounds.register(soundId,() => new SoundEvent(new ResourceLocation(MoCakes.MOD_ID, soundId)))
+  private def initSound(soundId: String): Unit = {
+    RegistryHandler.Sounds.register(soundId, () => new SoundEvent(new ResourceLocation(MoCakes.MOD_ID, soundId)))
   }
 }

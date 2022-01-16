@@ -28,7 +28,7 @@ class BaseCakeBlock(nutrition: Int, saturation: Float) extends CakeBlock(BlockBe
     eat(world, pos, state, player)
   }
 
-  protected def eat(world : LevelAccessor, pos : BlockPos, state : BlockState, player : Player):
+  protected def eat(world: LevelAccessor, pos: BlockPos, state: BlockState, player: Player):
   InteractionResult = {
     if (!player.canEat(false)) InteractionResult.PASS
     else {

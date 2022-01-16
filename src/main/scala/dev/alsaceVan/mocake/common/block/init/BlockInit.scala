@@ -7,8 +7,8 @@ import net.minecraftforge.registries.RegistryObject
 
 object BlockInit {
 
-  var chocolateCake:RegistryObject[Block] = _
-  var rainbowChocolateCake:RegistryObject[Block] = _
+  var chocolateCake: RegistryObject[Block] = _
+  var rainbowChocolateCake: RegistryObject[Block] = _
 
   final def register(): Unit = {
     chocolateCake = RegistryHandler.Blocks.register("chocolate_cake",

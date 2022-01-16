@@ -13,15 +13,15 @@ import net.minecraftforge.client.EffectRenderer
 
 import java.util.function.Consumer
 
-class PoppingCandyEffect extends MobEffect(MobEffectCategory.NEUTRAL, 0){
-  override def applyEffectTick(entity : LivingEntity, amplifier : Int): Unit = {
-    val level:Level = entity.level
-    if(level.getDayTime % 100 == 0){
+class PoppingCandyEffect extends MobEffect(MobEffectCategory.NEUTRAL, 0) {
+  override def applyEffectTick(entity: LivingEntity, amplifier: Int): Unit = {
+    val level: Level = entity.level
+    if (level.getDayTime % 100 == 0) {
       entity.playSound(new SoundEvent(new ResourceLocation(MoCakes.MOD_ID, "popping_candy")), math.max(1F, 0.4F + 0.1F * amplifier), 1F)
     }
   }
 
-  override def isDurationEffectTick(duration : Int, amplifier : Int): Boolean = true
+  override def isDurationEffectTick(duration: Int, amplifier: Int): Boolean = true
 
   override def initializeClient(consumer: Consumer[EffectRenderer]): Unit = {
     consumer.accept(new EffectRenderer {

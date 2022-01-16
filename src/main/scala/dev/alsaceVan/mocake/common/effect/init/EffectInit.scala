@@ -6,8 +6,9 @@ import net.minecraft.world.effect.MobEffect
 import net.minecraftforge.registries.RegistryObject
 
 object EffectInit {
-  var poppingCandy:RegistryObject[MobEffect] = _
-  def register():Unit = {
+  var poppingCandy: RegistryObject[MobEffect] = _
+
+  def register(): Unit = {
     poppingCandy = RegistryHandler.Effects.register("popping_candy", () => new PoppingCandyEffect)
   }
 }

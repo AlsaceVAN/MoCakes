@@ -26,12 +26,12 @@ object FoodInit {
     RegistryHandler.Items.register("popping_candy_raw",
       () => new Item(new Properties().tab(Tabs.FOOD)))
     RegistryHandler.Items.register("popping_candy",
-      () => new BaseFoodItem(FoodsProperties.poppingCandy){
-        override def finishUsingItem(stack:ItemStack, level: Level, eater: LivingEntity):
+      () => new BaseFoodItem(FoodsProperties.poppingCandy) {
+        override def finishUsingItem(stack: ItemStack, level: Level, eater: LivingEntity):
         ItemStack = {
           val olderEffect = eater.getEffect(EffectInit.poppingCandy.get)
-          val olderTime = if(olderEffect != null) olderEffect.getDuration else 0
-          val olderAmp = if(olderEffect != null) olderEffect.getAmplifier else 0
+          val olderTime = if (olderEffect != null) olderEffect.getDuration else 0
+          val olderAmp = if (olderEffect != null) olderEffect.getAmplifier else 0
           eater.addEffect(new MobEffectInstance(EffectInit.poppingCandy.get(), math.max((2400 + olderTime) * 2 / 3, 2400 + olderTime), olderAmp + 1))
           PlayerManagement.awardAdvancement(eater, "mocake:pop_rocks")
           super.finishUsingItem(stack, level, eater)
@@ -39,5 +39,6 @@ object FoodInit {
       })
 
   }
-  class BaseFoodItem(food:FoodProperties) extends Item(new Properties().food(food).tab(Tabs.FOOD))
+
+  class BaseFoodItem(food: FoodProperties) extends Item(new Properties().food(food).tab(Tabs.FOOD))
 }
