@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "mocake:popping_candy"
+    },
+    "title": {
+      "translate": "advancements.mocake.pop_rocks.title"
+    },
+    "description": {
+      "translate": "advancements.mocake.pop_rocks.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pop_rocks": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

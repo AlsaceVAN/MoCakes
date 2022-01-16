@@ -1,5 +1,14 @@
 {
+  "advancements.mocake.pop_rocks.title": "Pop Rocks!",
+  "advancements.mocake.pop_rocks.desc": "Take a bite of popping candies!",
+
   "block.mocake.chocolate_cake": "Chocolate Cake",
   "block.mocake.rainbow_chocolate_cake": "Rainbow Chocolate Cake",
+
+  "effect.mocake.popping_candy": "Popping Candy",
+
+  "item.mocake.popping_candy": "Popping Candy",
+  "item.mocake.popping_candy_raw": "Popping Candy (Raw Material)",
+
   "itemGroup.mocake.food": "Mo'Cake: Food"
 }

@@ -1,4 +1,4 @@
-package dev.alsaceVan.mocake.common.item
+package dev.alsaceVan.mocake.common.item.food.base
 
 import dev.alsaceVan.mocake.client.creativeTab.Tabs
 import net.minecraft.world.food.FoodProperties

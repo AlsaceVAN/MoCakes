@@ -1,0 +1,11 @@
+{
+  "popping_candy": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "mocake:popping_candy",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,5 +1,15 @@
 {
+  "advancements.mocake.pop_rocks.title": "滋啦滋啦！",
+  "advancements.mocake.pop_rocks.desc": "尝一口跳跳糖！",
+
   "block.mocake.chocolate_cake": "巧克力蛋糕",
   "block.mocake.rainbow_chocolate_cake": "彩虹巧克力蛋糕",
+
+
+  "effect.mocake.popping_candy": "跳跳糖",
+  
+  "item.mocake.popping_candy": "跳跳糖",
+  "item.mocake.popping_candy_raw": "跳跳糖（原料）",
+  
   "itemGroup.mocake.food":"更多蛋糕：食物"
 }
