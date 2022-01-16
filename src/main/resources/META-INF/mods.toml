@@ -3,7 +3,7 @@ loaderVersion="[2.13.3,)"
 license="AGPL v3"
 [[mods]]
 modId="mocake"
-version="1.0.0"
+version="1.0.1"
 displayName="Mo'Cakes"
 #logoFile="examplemod.png"
 credits=""
