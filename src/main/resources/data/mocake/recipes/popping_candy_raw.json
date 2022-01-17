@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#D#",
+    "DHD",
+    "#D#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar"
+    },
+    "D": {
+      "tag": "minecraft:cake_dyes"
+    },
+    "H": {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "result": {
+    "item": "mocake:popping_candy_raw",
+    "count": 4
+  }
+}

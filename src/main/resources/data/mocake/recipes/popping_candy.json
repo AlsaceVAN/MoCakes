@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "mocake:popping_candy_raw"
+  },
+  "result": "mocake:popping_candy",
+  "experience": 0.1,
+  "cookingtime": 80
+}

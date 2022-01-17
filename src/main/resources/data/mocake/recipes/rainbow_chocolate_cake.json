@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#M#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:cake_dyes"
+    },
+    "M": {
+      "item": "mocake:chocolate_cake"
+    }
+  },
+  "result": {
+    "item": "mocake:rainbow_chocolate_cake",
+    "count": 1
+  }
+}
