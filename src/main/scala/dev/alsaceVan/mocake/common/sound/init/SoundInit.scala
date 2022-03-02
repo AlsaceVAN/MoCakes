@@ -6,8 +6,9 @@ import net.minecraft.resources.ResourceLocation
 import net.minecraft.sounds.SoundEvent
 
 object SoundInit {
+  val poppingCandy = "popping_candy"
   def register(): Unit = {
-    initSound("popping_candy")
+    initSound(poppingCandy)
   }
 
   private def initSound(soundId: String): Unit = {
